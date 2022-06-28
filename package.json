@@ -4,6 +4,7 @@
   "description": "Curso de Webpack de Platzi",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
