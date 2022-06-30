@@ -14,6 +14,7 @@ module.exports = {
     assetModuleFilename: "assets/images/[hash][ext][query]",
   },
   mode: "development",
+  watch: true, // Observa los cambios en el proyecto y rebuildea
   resolve: {
     extensions: [".js"],
     alias: {
