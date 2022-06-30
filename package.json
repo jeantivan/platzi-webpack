@@ -4,7 +4,7 @@
   "description": "Curso de Webpack de Platzi",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production",
+    "build": "webpack --mode production --config webpack.config.js",
     "dev": "webpack --config webpack.config.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +20,7 @@
     "@babel/plugin-transform-runtime": "^7.18.6",
     "@babel/preset-env": "^7.18.6",
     "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.1",
     "css-minimizer-webpack-plugin": "^4.0.0",
